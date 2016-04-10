@@ -1,26 +1,18 @@
-package Analysis;
+import org.apache.lucene.document.Document;
+import org.apache.lucene.index.DirectoryReader;
+import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.store.FSDirectory;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.FileSystems;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-
-import org.apache.lucene.document.Document;
-import org.apache.lucene.index.IndexReader;
 //import org.apache.lucene.queryParser.QueryParser;
-import org.apache.lucene.store.Directory;
-import org.apache.lucene.store.FSDirectory;
-
-
-import com.cybozu.labs.langdetect.Detector;
-import com.cybozu.labs.langdetect.DetectorFactory;
-import com.cybozu.labs.langdetect.LangDetectException;
 
 /*
  * (Really simple-dumb) Sentiment analysis for a lucene index of 1 million Tweets!
@@ -30,9 +22,8 @@ import com.cybozu.labs.langdetect.LangDetectException;
 public class Analyze {
 
 	// path to lucene index
-	private final static String indexPath = "/Users/SDSC/Documents/workspace/Emotional_Analysis/Results/";
+	private final static String indexPath = "Results/";
 	// path to language profiles for classifier
-	private static String langProfileDirectory = "/Users/SDSC/Documents/workspace/profiles";
 
 	// lucene queryParser for saving
 	//private static QueryParser queryParser;
@@ -48,10 +39,9 @@ public class Analyze {
 	/**
 	 * @param args
 	 * @throws IOException
-	 * @throws LangDetectException
 	 */
-	public static void main(String[] args) throws IOException,
-			LangDetectException {
+	public static void main(String[] args) throws IOException
+	{
 
 		// huh, how long?
 		long startTime = System.currentTimeMillis();
@@ -60,10 +50,10 @@ public class Analyze {
 		FSDirectory dir;
 		IndexReader docReader = null;
 		try {
-			dir = FSDirectory.open(new File(indexPath));
+			dir = FSDirectory.open(FileSystems.getDefault().getPath(indexPath));
 			System.out.println("This is the directory" + dir + "swag");
 			System.err.println(dir.listAll());
-			docReader = IndexReader.open(dir);
+			docReader = DirectoryReader.open(dir);
 			//System.out.println("This is the directory" + docReader.directory());
 		} 
 		
@@ -100,15 +90,6 @@ public class Analyze {
 
 		System.out.println("START: calculating sentiment");
 
-		// prepare language classifier
-		DetectorFactory.loadProfile(langProfileDirectory);
-		// store different languages
-		Map<String, Integer> langHitList = new HashMap<String, Integer>();
-
-		// detect language, using http://code.google.com/p/language-detection/
-		// has 99% accuracy
-		Detector detector;
-
 		// current tweet
 		Document tweet;
 		// current score
@@ -142,20 +123,7 @@ public class Analyze {
 
 				text = tweet.get("text");
 
-				// we need a new instance every time unfortunately...
-				detector = DetectorFactory.create();
-				detector.append(text);
-				// classify language!
-				String detectedLanguage = detector.detect();
-
-				// if it is not english...
-				if (detectedLanguage.equals("en") == false) {
-					stats[3]++;
-
-					// we can't classify non-english tweets, so just keep them
-					// neutral
-					score = 0;
-				} else if (text.startsWith("I'm at")
+				if (text.startsWith("I'm at")
 						|| text.startsWith("I just became the mayor")
 						|| text.startsWith("I just ousted")) {
 					// all your foursquare updates are belong to us.
@@ -174,24 +142,6 @@ public class Analyze {
 					tweet.get("ID") + "):"+ tweet.get("text"));
 					}
 				}
-
-				// so now for the saving...
-				if (skipSave == false) {
-					Integer currentCount = langHitList.get(detectedLanguage);
-					// ...save the detected language for some stats
-					langHitList.put(detectedLanguage,
-							(currentCount == null) ? 1 : currentCount + 1);
-					
-					// tweet.set("language", detectedLanguage)
-					// tweet.set("sentiment", score);
-					// tweet.get("ID");
-				}
-			} catch (LangDetectException e) {
-				// thrown by the language classifier when tweets are like :D or
-				// :3 or ?????????
-				// count how many times there is no valid input, plus we won't
-				// save it as it's in the catch clause...
-				stats[5]++;
 			} catch (Exception e) {
 				// something went wrong, ouuups!
 				e.printStackTrace();
@@ -216,7 +166,6 @@ public class Analyze {
 		// get me some info!
 		System.out.println("STATS - COUNTS: [negative | neutral | positive | not english | foursquare | no text to classify]");
 		System.out.println("STATS - COUNTS: " + java.util.Arrays.toString(stats));
-		System.out.println("STATS - LANGUAGE: " + langHitList.toString());
 
 		// cleanup
 		docReader.close();
