@@ -35,6 +35,15 @@ public class Analyze {
      */
     public static void main(String[] args) throws IOException {
 
+        boolean quiet = false;
+        for (String arg : args)
+        {
+            if (arg.equals("-q"))
+            {
+                quiet = true;
+            }
+        }
+
         // huh, how long?
         long startTime = System.currentTimeMillis();
 
@@ -110,8 +119,27 @@ public class Analyze {
                         // ++ index so we won't have -1 and stuff...
                         stats[score + 1]++;
 
-                        // wanna see what neutral tweets look like? uncomment.
-                        System.out.printf("Score: %d for Tweet (%d): %s%n", score, i, text);
+                        if (quiet)
+                        {
+                            String out = "";
+                            if (score > 0)
+                            {
+                                out = "+1";
+                            }
+                            else if (score == 0)
+                            {
+                                out = "0";
+                            }
+                            else
+                            {
+                                out = "-1";
+                            }
+                            System.out.println(out);
+                        }
+                        else
+                        {
+                            System.out.printf("Score: %d for Tweet (%d): %s%n", score, i, text);
+                        }
                     }
                 } catch (Exception e) {
                     // something went wrong, ouuups!
