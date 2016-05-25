@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SentimentParser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SentimentParser_jar</output-path>
+    <root id="archive" name="SentimentParser.jar">
+      <element id="module-output" name="SentimentParser" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/deps/lucene-core-6.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/deps/lucene-analyzers-common-6.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>SDSC</LastAuthor>
+  <Created>2015-04-28T07:59:44Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15260</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s77" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#0000D4"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Calibri" ss:Size="13" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#63AAFE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="General Date"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78" ss:Parent="s77">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="General Date"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87" ss:Parent="s77">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90" ss:Parent="s77">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="16">
+   <Column ss:StyleID="s62" ss:Width="99"/>
+   <Column ss:StyleID="s62" ss:Width="260"/>
+   <Column ss:StyleID="s62" ss:Width="94"/>
+   <Column ss:StyleID="s62" ss:Width="81"/>
+   <Column ss:StyleID="s62" ss:Width="79"/>
+   <Column ss:StyleID="s62" ss:Width="84"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="13"/>
+   <Column ss:StyleID="s62" ss:Width="186"/>
+   <Column ss:StyleID="s62" ss:Width="85"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="59"/>
+   <Column ss:StyleID="s62" ss:Width="156"/>
+   <Column ss:StyleID="s62" ss:Width="69"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="30"/>
+   <Column ss:StyleID="s62" ss:Width="87"/>
+   <Column ss:StyleID="s62" ss:Width="75"/>
+   <Column ss:StyleID="s62" ss:Width="81"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="55"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="46"/>
+   <Column ss:StyleID="s62" ss:Width="260"/>
+   <Column ss:StyleID="s62" ss:Width="125"/>
+   <Column ss:StyleID="s62" ss:Width="101"/>
+   <Column ss:StyleID="s62" ss:Width="112"/>
+   <Column ss:StyleID="s62" ss:Width="67"/>
+   <Column ss:StyleID="s62" ss:Width="102"/>
+   <Column ss:StyleID="s62" ss:Width="125"/>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Twitter account :</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">@ChillBroYo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Data requested :</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Latest search results for...</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Query :</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">fire</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Records exported :</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Created At</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Text</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Screen Name</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Retweet Count</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Favorite Count</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Link</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">a</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">User Created At</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Time Zone</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Location</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Geo Enabled</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Lang</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Followers Count</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Friends Count</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Statuses Count</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Protected</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Verified</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Website</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">In Reply To</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">In Reply To Status Id&#160;&#160;</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Coordinates</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Source</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Id&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2015-04-28T09:57:33.000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">RT @DFB_Team_EN: Sven #Bender wants to fire @BVB into the #DFBCup final when they face @FCBayernEN tomorrow: http://t.co/llCY5tgks0 http://…</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="http://www.twitter.com/BVBBVBs"><Data
+      ss:Type="String">@BVBBVBs</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="https://www.twitter.com/BVBBVBs/status/592960829185622016"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">sersio more@bvb 発</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2015-03-22T15:36:00.000</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ja</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">274</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">I support BVB . Japan</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef=""/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;&quot;"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Twitter for iPhone</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;592960829185622016&quot;"><Data
+      ss:Type="String">592960829185622016</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2015-04-28T09:57:32.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">7% 7% 6% 先輩ィ～ グラン暦776っすよ776～（小学生</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://www.twitter.com/fire_szk_bot"><Data
+      ss:Type="String">@fire_szk_bot</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="https://www.twitter.com/fire_szk_bot/status/592960828598390785"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">もんしょうまん</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2015-03-20T09:16:02.000</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">センズリティア</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ja</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">111</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">9025</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">俺は負けるわけにはいかないんだからさ</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef=""/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;&quot;"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">fireszkbot</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;592960828598390785&quot;"><Data
+      ss:Type="String">592960828598390785</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2015-04-28T09:57:32.000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">“@Amzf23: That's right people, because throwing rocks and setting things on fire solves a multitude of problems. #BalitmoreRiots ditto!</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="http://www.twitter.com/bjl5150"><Data
+      ss:Type="String">@bjl5150</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="https://www.twitter.com/bjl5150/status/592960825402372096"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Bill James Lewis</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2013-01-22T07:50:03.000</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">en</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2596</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s78" ss:HRef=""/>
+    <Cell ss:StyleID="s78" ss:HRef="http://www.twitter.com/Amzf23"><Data
+      ss:Type="String">@Amzf23</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;592956350415695872&quot;"><Data
+      ss:Type="String">592956350415695872</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Twitter for iPad</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;592960825402372096&quot;"><Data
+      ss:Type="String">592960825402372096</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2015-04-28T09:57:31.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">A fire truck, cop car and an ambulance are struggling to get to the accident scene because of impatient drivers in the emergency lane.</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://www.twitter.com/SadieWiggles"><Data
+      ss:Type="String">@SadieWiggles</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="https://www.twitter.com/SadieWiggles/status/592960821766021120"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">SlaydieWiggles</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2010-04-15T14:38:47.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Greenland</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">South Africa</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">en</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">9982</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1260</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">59132</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">I don't need inner beauty, I have Instagram. Milf Gang hold it down.</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://t.co/PfcClLuD8m"><Data ss:Type="String">http://t.co/PfcClLuD8m</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;&quot;"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Twitter for Android</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;592960821766021120&quot;"><Data
+      ss:Type="String">592960821766021120</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2015-04-28T09:57:30.000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">@chunxchunxchun 割とマジで欲しいから。作ってくれ！</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="http://www.twitter.com/fox_fire_000"><Data
+      ss:Type="String">@fox_fire_000</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="https://www.twitter.com/fox_fire_000/status/592960820201410561"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">狐火@祝南ちゃん誕生日ライブ！</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2014-06-30T12:16:08.000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Seoul</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">宮城県</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ja</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2018</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1809</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">15034</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">KKE団 / τ's / ジョルチッカ団No.26 / ラブライブ団No.15 / 今後は勉強三昧なので、ツイ減。 祝南ちゃんバースデーライブ！！！</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="https://t.co/CqICVi2FNL"><Data ss:Type="String">https://t.co/CqICVi2FNL</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="http://www.twitter.com/chunxchunxchun"><Data
+      ss:Type="String">@chunxchunxchun</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;592958659488915457&quot;"><Data
+      ss:Type="String">592958659488915457</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Twitter for iPhone</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;592960820201410561&quot;"><Data
+      ss:Type="String">592960820201410561</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2015-04-28T09:57:30.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">RT @TODAYonline: A fire broke out at Joo Koon Crescent warehouse early this morning; no injuries reported http://t.co/4mUtF9ApUX http://t.c…</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://www.twitter.com/hxmizxh"><Data
+      ss:Type="String">@hxmizxh</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="https://www.twitter.com/hxmizxh/status/592960817730965504"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2010-10-16T23:22:51.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Singapore</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">en</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">136</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">20763</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">I don't like hope very much. In fact, I hate it. It's the crystal meth of emotions. It hooks you fast and kills you hard. It's bad news.</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef=""/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;&quot;"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Twitter for Android</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;592960817730965504&quot;"><Data
+      ss:Type="String">592960817730965504</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2015-04-28T09:57:29.000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">RT @MedievaI_React: When you think of a fire tweet but it's longer than 140 characters http://t.co/7arbqaq7C2</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="http://www.twitter.com/Papi_LongLegs"><Data
+      ss:Type="String">@Papi_LongLegs</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">19118</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="https://www.twitter.com/Papi_LongLegs/status/592960816330092544"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">os</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2012-07-06T01:39:52.000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Arizona</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">en</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">151</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">137</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1392</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">I like conversing about popular theories regarding physics.</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef=""/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;&quot;"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Twitter for Android</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;592960816330092544&quot;"><Data
+      ss:Type="String">592960816330092544</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2015-04-28T09:57:29.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">RT @hopeboi: &quot;When the cities are set on fire&quot; This is a sign of the end of you as a power #FallofAmerica #ElijahMuhammad</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://www.twitter.com/s1_muhammad"><Data
+      ss:Type="String">@s1_muhammad</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="https://www.twitter.com/s1_muhammad/status/592960815663190017"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Marvin T. Muhammad</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2010-02-12T23:25:12.000</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">196,940,000 Sq. Miles of Earth</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">en</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">864</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1466</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">10483</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">#FarrakhanTwitterArmy #GramFam #TeamSU #ThePeoplesAdvocate</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://t.co/UgWtn30lRg"><Data ss:Type="String">http://t.co/UgWtn30lRg</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;&quot;"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Twitter for Android</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;592960815663190017&quot;"><Data
+      ss:Type="String">592960815663190017</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2015-04-28T09:57:29.000</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">RT @nishinoakihiro: 『ろくでもない夜』のクラウドファンディングが目標額に達成したようです。 ご支援いただいた皆様、情報を拡散してくださった皆様、キャンプファイヤーのスタッフの皆様、どうもありがとうございました。 引き続き、応援してやってくださいな。 htt…</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="http://www.twitter.com/haraguchi0603"><Data
+      ss:Type="String">@haraguchi0603</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef="https://www.twitter.com/haraguchi0603/status/592960814534889472"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">原口 雄介 (４月毎日下北います)</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="DateTime">2011-11-20T12:10:41.000</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">にほん</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ja</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">488</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">2077</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">下北沢ろくでもない夜5月１日オープン!!</Data></Cell>
+    <Cell ss:StyleID="s78" ss:HRef=""/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;&quot;"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Twitter for Android</Data></Cell>
+    <Cell ss:StyleID="s76" ss:Formula="=&quot;592960814534889472&quot;"><Data
+      ss:Type="String">592960814534889472</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2015-04-28T09:57:28.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">@RodoNeverSober @ForeignFlavored either way the city on fire you lot can't change that, it brings me joy that some ppl are doing something</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://www.twitter.com/VexArtist"><Data
+      ss:Type="String">@VexArtist</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="https://www.twitter.com/VexArtist/status/592960809145409537"><Data
+      ss:Type="String">Open the tweet</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">VEX_OFFICIAL</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="DateTime">2010-03-25T14:36:24.000</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">London</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">The Hills - Block 23 ™</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">en</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">2142</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">798</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">31441</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Rapper/Actor from South London Contact/Bookings: Block23Ent@gmail.com #TouchMoney #HillsTM - #IBAM Mixtape out soon!!!!!</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://t.co/RSR1YgQCPt"><Data ss:Type="String">http://t.co/RSR1YgQCPt</Data></Cell>
+    <Cell ss:StyleID="s87" ss:HRef="http://www.twitter.com/RodoNeverSober"><Data
+      ss:Type="String">@RodoNeverSober</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;592959007851053056&quot;"><Data
+      ss:Type="String">592959007851053056</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Twitter for iPhone</Data></Cell>
+    <Cell ss:StyleID="s86" ss:Formula="=&quot;592960809145409537&quot;"><Data
+      ss:Type="String">592960809145409537</Data></Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell ss:StyleID="s90" ss:HRef="http://twDocs.com/"><Data ss:Type="String">Created with http://twDocs.com/</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

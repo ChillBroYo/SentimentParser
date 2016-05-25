@@ -1,9 +1,6 @@
 import org.apache.lucene.document.Document;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -13,12 +10,12 @@ import java.util.concurrent.TimeUnit;
 /*
  * (Really simple-dumb) Sentiment analysis for a lucene index of 1 million Tweets!
  * Based on http://jeffreybreen.wordpress.com/2011/07/04/twitter-text-mining-r-slides/
- * 
+ *
  */
 public class Analyze {
 
     // path to lucene index
-    private final static String inputFile = "SampleTweetText/tweets.txt";
+    //private final static String inputFile = "SampleTweetText/sampleInput.txt";
     // path to language profiles for classifier
 
     // lucene queryParser for saving
@@ -44,15 +41,16 @@ public class Analyze {
         // open lucene index
         BufferedReader reader = null;
         try {
-            FileReader fr = new FileReader(inputFile);
-            reader = new BufferedReader(fr);
+            //FileReader fr = new FileReader(inputFile);
+            InputStreamReader isr = new InputStreamReader(System.in);
+            reader = new BufferedReader(isr);
 
             System.out.println("START: reading file list");
             // source: www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
             BufferedReader negReader = new BufferedReader(new FileReader(new File(
-                    "./src/negative-words.txt")));
+                    "negative-words.txt")));
             BufferedReader posReader = new BufferedReader(new FileReader(new File(
-                    "./src/positive-words.txt")));
+                    "positive-words.txt")));
 
             // currently read word
             String word;
@@ -113,9 +111,7 @@ public class Analyze {
                         stats[score + 1]++;
 
                         // wanna see what neutral tweets look like? uncomment.
-                        if (score == 0) {
-                            System.out.printf("Score: %d for Tweet (%d): %s%n", score, i, text);
-                        }
+                        System.out.printf("Score: %d for Tweet (%d): %s%n", score, i, text);
                     }
                 } catch (Exception e) {
                     // something went wrong, ouuups!
@@ -126,7 +122,7 @@ public class Analyze {
             }
             // cleanup
             reader.close();
-            fr.close();
+            //fr.close();
         } catch (IOException e1) {
             e1.printStackTrace();
             System.err.println(e1.getMessage());
